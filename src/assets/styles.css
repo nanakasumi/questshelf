@@ -1,0 +1,59 @@
+:root {
+    --color-bg: #15111F;
+    --color-surface: #1C1727;
+    --color-surface-border: #393047;
+    --color-surface-border-focus: #7652A8;
+    --color-popup-bg: #211B2E;
+
+    --color-text-secondary: #B5AABD;
+    --color-text-placeholder: #8E8499;
+
+    --color-playing: #00C8B3;
+    --color-completed: #34C759;
+    --color-backlog: #FF8D28;
+    --color-total-hours: #FF2D55;
+
+    --box-shadow: 0px 0px 12px rgba(118, 82, 168, 0.25);
+
+    --color-star: #D6A84F;
+    --color-heart: #FF2D55;
+}
+
+body {
+    background-color: #15111F;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('@/assets/fonts/Inter_18pt-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('@/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
